@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.primaryContainer{
+    background: url("Media/Mists_of_renfrew_Adam_Gibbs.jpg");
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 200px;
+}
+.navBar{
+    /* display: flex; */
+    background-color: #1f2028a4;
+    padding-bottom: 15px;
+}
+
+.navBar img{
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.menu1{
+    color: white;
+    text-decoration: none;
+}
+.menu2{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px 15px 5px 15px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.flex-items{
+    margin-right: 25px;
+    margin-top: -30px;
+}
+
+.search-bar{
+    margin-right: 150px;
+    padding: 5px 400px 5px 400px;
+}
+
+.hero{
+    margin-top: 200px;
+}
+
+.hero h2{
+    font-size: 50px;
+    color: white;
+
+}
+
+.hero h3{
+    font-size: 25px;
+    font-weight: 300px;
+    color: white;
+}
+
+.anchor a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 15px 10px 15px;
+    font-size: 25px;
+    font-weight: 600px;
+    border-radius: 5px;
+}
+
+.hero-elements{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.hero-content{
+    text-align: center;
+}
+
+.anchor{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.footerBlack{
+    background-color: rgb(0, 0, 0);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+}
+
+.footerMenu{
+    list-style: none;
+    display: flex;
+}
+
+.footerMenu li{
+    margin-right: 50px;
+}
+
+.footerMenu li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    margin-top: -45px;
+    
+}
